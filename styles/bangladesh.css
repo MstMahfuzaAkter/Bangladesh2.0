@@ -570,8 +570,8 @@ footer hr {
     }
 
     .card {
-        margin-top: 300px;
-        margin-bottom: 600px;
+        margin-top: 20rem;
+        margin-bottom: 40rem;
     }
 
     .card h1 {
@@ -586,7 +586,7 @@ footer hr {
     }
 
     .yo {
-        margin-top: 500px;
+        margin-top:32rem;
     }
 
     .vision {
@@ -602,7 +602,7 @@ footer hr {
     }
 
     .recent {
-        margin-top: 700px;
+        margin-top: 45rem;
         max-width: 90%;
     }
 
@@ -627,7 +627,7 @@ footer hr {
     }
 
     .donate {
-        margin-top: -300px;
+        margin-top: -23rem;
     }
 
     .other {
@@ -636,7 +636,7 @@ footer hr {
     }
 
     .subscriber {
-        margin-top: 500px;
+        margin-top: 30rem;
         max-width: 95%;
     }
 
