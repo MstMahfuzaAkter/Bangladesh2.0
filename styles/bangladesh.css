@@ -121,7 +121,6 @@ nav {
     margin: 0 auto;
     height: 100px;
 
-
 }
 
 nav button {
@@ -390,8 +389,8 @@ select {
     justify-content: space-between;
     margin: 0 auto;
     background-color: #f0ebeb;
-    width: 1280;
-    height: 420px;
+    max-width: 1280;
+    max-height: 420px;
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
@@ -406,7 +405,7 @@ select {
     justify-content: space-between;
     margin: 0 auto;
     background-color: #f0ebeb;
-    width: 1280;
+    max-width: 1280;
     height: 420px;
     padding-top: 50px;
     padding-left: 50px;
@@ -551,4 +550,102 @@ footer hr {
     justify-content: center;
     margin-top: 20px;
     gap: 30px;
+}
+
+@media screen and (max-width: 576px) {
+    nav {
+        max-width: 95%;
+    }
+
+    header {
+        flex-direction: column;
+        max-width: 95%;
+        max-height: 400px;
+
+    }
+
+    .banner-img img {
+        width: 300px;
+        height: 400;
+    }
+
+    .card {
+        margin-top: 300px;
+        margin-bottom: 600px;
+    }
+
+    .card h1 {
+        font-size: xx-large;
+        margin-left: 20px;
+        font-weight: 800;
+    }
+
+    .card-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .yo {
+        margin-top: 500px;
+    }
+
+    .vision {
+        width: 90%;
+    }
+
+    .vision-container {
+        flex-direction: column;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .recent {
+        margin-top: 700px;
+        max-width: 90%;
+    }
+
+    .recent-container,
+    .recent-container1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .recent-container {
+        background-color:transparent;
+    }
+
+    .recent-container img {
+        max-width: 300px;
+        border-radius: 5px;
+    }
+
+    .recent-container1 img {
+        max-width: 300px;
+        margin-top: 300px;
+    }
+
+    .donate {
+        margin-top: -300px;
+    }
+
+    .other {
+
+        width: 90%;
+    }
+
+    .subscriber {
+        margin-top: 500px;
+        max-width: 95%;
+    }
+
+    .subscribe-form {
+        max-width: 100%;
+    }
+
+    footer {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
 }
